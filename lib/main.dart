@@ -126,7 +126,7 @@ class App extends StatelessWidget {
                   amount: '9 785',
                   icon: Icons.currency_bitcoin_rounded,
                   isInverted: true,
-                  order: -20,
+                  order: 1,
                 ),
                 const CurrencyCard(
                   name: 'Dollar',
@@ -134,7 +134,7 @@ class App extends StatelessWidget {
                   amount: '428',
                   icon: Icons.attach_money_outlined,
                   isInverted: false,
-                  order: -40,
+                  order: 2,
                 ),
               ],
             ),
